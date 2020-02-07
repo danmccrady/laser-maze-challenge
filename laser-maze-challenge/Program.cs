@@ -135,7 +135,7 @@ namespace laser_maze_challenge
                                     {
                                         currentDirection = "Down";
                                     }
-                                    else if (lean == "L" && reflection != "R")
+                                    else if (lean == "L" && reflection != "L")
                                     {
                                         currentDirection = "Up";
                                     }
@@ -145,7 +145,7 @@ namespace laser_maze_challenge
                                     {
                                         currentDirection = "Up";
                                     }
-                                    else if (lean == "L" && reflection != "L")
+                                    else if (lean == "L" && reflection != "R")
                                     {
                                         currentDirection = "Down";
                                     }
