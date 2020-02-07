@@ -17,12 +17,6 @@ C# .Net Core 3.1 (console app)
 
 There is an input folder which the files can be placed.  When running the console app, you only need to key in the name of the file you want to process.  (Ex. input1)
 
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
