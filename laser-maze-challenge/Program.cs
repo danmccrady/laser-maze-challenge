@@ -29,6 +29,8 @@ namespace laser_maze_challenge
                     Console.WriteLine("Grid Layout: " + strGridLayout);
                     Console.WriteLine("Laser Start Position: " + strEntryPoint);
                     Console.WriteLine("Laser Exit Position: " + strExitPoint);
+                    Console.WriteLine("Press any key to close");
+                    Console.ReadKey();
                 }
             }
             catch (Exception e)
@@ -47,7 +49,7 @@ namespace laser_maze_challenge
                     strFileName += ".txt";
                 }
 
-                while (!File.Exists("../../../input/" + strFileName))
+                while (!File.Exists("input/" + strFileName))
                 {
                     Console.Write("The file " + strFileName + " could not be found.  Please try again: ");
                     strFileName = Console.ReadLine();
@@ -57,7 +59,7 @@ namespace laser_maze_challenge
                     }
                 }
 
-                return "../../../input/" + strFileName;
+                return "input/" + strFileName;
             }
             catch (IOException e)
             {
