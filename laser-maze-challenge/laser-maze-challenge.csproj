@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>laser_maze_challenge</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="input\" />
+  </ItemGroup>
+</Project>
